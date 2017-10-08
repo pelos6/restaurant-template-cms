@@ -12,6 +12,7 @@ asset pipeline.
 It's setup to use post-css and babel for CSS and JavaScript.
 
 ## Usage
+
 Be sure that you have the latest node, npm and [Hugo](https://gohugo.io/overview/installing/) installed. If you need to install hugo, run:
 
 Clone this repository and run:
@@ -32,7 +33,7 @@ npm run build
 
 ## Structure
 
-```
+```txt
 |--site                // Everything in here will be built with hugo
 |  |--content          // Pages and collections - ask if you need extra pages
 |  |--data             // YAML data files with any data for use in examples
@@ -44,6 +45,7 @@ npm run build
 |  |--css              // CSS files in the root of this folder will end up in /css/...
 |  |--js               // app.js will be compiled to /js/app.js with babel
 ```
+
 ## CMS
 
 ### How it works
@@ -67,6 +69,9 @@ backend:
   
   ...
 ```
+
+* nota javier: como no existe este archivo lo creo nuevo 
+
 When a user navigates to `/admin` she'll be prompted to login, and once authenticated
 she'll be able to create new content or edit existing content.
 The default Github-based authenticator integrates with Netlify's [Authentication Provider feature](https://www.netlify.com/docs/authentication-providers) and the repository
