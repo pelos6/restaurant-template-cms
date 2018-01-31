@@ -3,7 +3,7 @@ languageCode = "es-ES"
 title = "Sabrosos bocados"
 
 [params]
-  description = "Un ejemplo de website para un restaurante creado por [@eliwilliamson](https://github.com/eliwilliamson) usando [Victor Hugo](https://github.com/netlify/victor-hugo)."
+  description = "Un ejemplo de sitio para un restaurante creado por [@eliwilliamson](https://github.com/eliwilliamson) usando [Victor Hugo](https://github.com/netlify/victor-hugo)."
 
 [[menu.main]]
     name = "About"
