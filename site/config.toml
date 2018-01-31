@@ -1,6 +1,6 @@
 baseurl = "/"
-languageCode = "en-us"
-title = "Tasty Licks"
+languageCode = "es-ES"
+title = "Sabrosos bocados"
 
 [params]
   description = "Un ejemplo de website para un restaurante creado por [@eliwilliamson](https://github.com/eliwilliamson) usando [Victor Hugo](https://github.com/netlify/victor-hugo)."

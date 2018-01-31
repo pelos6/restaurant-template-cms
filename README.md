@@ -1,4 +1,9 @@
+# README.md
+
+* para intentar montar y ver si es interesante un CMS con Hugo y hacer con esta utilidad javier-programacion
+
 # Victor Hugo CMS Template
+
 <!-- Markdown snippet -->
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/bdougie/restaurant-template-cms&stack=cms)
 
@@ -70,7 +75,7 @@ backend:
   ...
 ```
 
-* nota javier: como no existe este archivo lo creo nuevo 
+* nota javier: como no existe este archivo lo creo nuevo
 
 When a user navigates to `/admin` she'll be prompted to login, and once authenticated
 she'll be able to create new content or edit existing content.
