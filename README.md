@@ -2,6 +2,39 @@
 
 * para intentar montar y ver si es interesante un CMS con Hugo y hacer con esta utilidad javier-programacion
 
+* creo el directorio admin
+  * sigo este [enlace](https://www.ragasirtahk.tk/2018/01/setting-up-netlify-cms-on-hugo/)
+* el arbol de directorios que uso
+
+```txt
+├───content
+│   ├───food
+│   ├───gallery
+│   └───pages
+├───data
+├───layouts
+│   ├───partials
+│   └───_default
+├───public
+│   ├───categories
+│   │   ├───dinner
+│   │   └───lunch
+│   ├───food
+│   │   ├───imperial-roll
+│   │   ├───oysters
+│   │   ├───scallop
+│   │   ├───shrimp
+│   │   ├───spring-roll
+│   │   ├───tartare
+│   │   ├───vegan-imperial-roll
+│   │   └───vegan-spring-roll
+│   └───tags
+└───static
+    ├───admin
+    └───images
+        └───uploads
+```
+
 # Victor Hugo CMS Template
 
 <!-- Markdown snippet -->
@@ -74,8 +107,6 @@ backend:
   
   ...
 ```
-
-* nota javier: como no existe este archivo lo creo nuevo
 
 When a user navigates to `/admin` she'll be prompted to login, and once authenticated
 she'll be able to create new content or edit existing content.
